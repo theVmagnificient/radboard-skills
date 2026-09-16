@@ -4,6 +4,12 @@ Every skill in this repo depends on these rules. They exist because the underlyi
 has specific, known limits, and a confident answer built on a thin slice is worse than
 no answer at all.
 
+## Before anything else: are the tools there?
+
+If the RadBoard MCP tools are not connected, no rule below applies, because there is no
+data to apply them to. Say so and stop rather than answering from general knowledge. Each
+skill carries the two setup steps.
+
 ## The salary fields do not mean what their names suggest
 
 RadBoard salary metrics are computed from the **top of each advertised range**.

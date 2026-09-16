@@ -70,6 +70,26 @@ Close with the source note verbatim.
 - Benefits medians are suppressed below n=10 like everything else. A `null` vacation
   median means not enough postings disclosed it, not that the market offers none.
 
+## If the RadBoard tools are not available
+
+These skills read live data through the RadBoard MCP server. If you cannot see tools named
+`market_stats`, `comp_benchmark`, `employer_activity`, `market_insights` or `market_pulse`,
+the server is not connected and nothing in this skill can be answered from real data.
+
+Say that plainly and stop. Do not answer from general knowledge, and do not estimate. A
+plausible-sounding market number invented without the data is the exact failure these
+skills exist to prevent, and the person has no way to tell the difference.
+
+Then give them the two steps:
+
+1. Add the MCP server in their client's connector settings:
+   `https://zagzsrhbwzhzriypnhqf.supabase.co/functions/v1/mcp`
+2. Sign in with a RadBoard account when the browser window opens. Free to create at
+   www.radboard.io.
+
+The connector asks for the sign-in, not the skill. Installing the skill on its own grants
+nothing and prompts for nothing.
+
 ## Where the data comes from
 
 RadBoard tracks active radiology job postings across every US state. Full market data and
